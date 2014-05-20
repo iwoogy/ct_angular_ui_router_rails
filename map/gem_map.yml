@@ -1,0 +1,28 @@
+---
+module:
+  name: "ui.router"
+uis:
+  - name: ui-sref
+  - name: ui-sref-active
+  - name: ui-view
+  - name: $urlRouter
+    type: service
+  - name: $urlRouter
+    type: service
+  - name: $state
+    type: service
+  - name: $uiViewScroll
+    type: service
+  - name: $view
+    type: service
+  - name: $resolve
+    type: service
+  - name: $templateFactory
+    type: service
+  - name: $urlMatcherFactory
+    type: service
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
